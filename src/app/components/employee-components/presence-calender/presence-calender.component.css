@@ -1,7 +1,39 @@
+/* Container style */
+.full-calendar-container {
+  width: 100%;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Calendar style */
+.fc-theme-standard {
+  background-color: #fff;
+}
+
+/* Header style (e.g., navigation buttons) */
+.fc-header-toolbar {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Event title style */
+.fc-title {
+  font-weight: bold;
+}
+
+/* Event background color */
 .fc-event {
-    background-color: #3498db;
-    color: #fff;
-    padding: 2px;
-    margin: 2px;
-    cursor: pointer;
-  }
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Hover effect on events */
+.fc-event:hover {
+  background-color: #003d7d;
+  cursor: pointer;
+}

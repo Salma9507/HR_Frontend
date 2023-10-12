@@ -78,7 +78,7 @@ const routes: Routes = [
 { path: 'updateNote', component: UpdateNoteComponent },
 { path: 'notesInternes', component: NotesInternesComponent },
 { path: 'holiday-calendar', component: HolidayComponent },
-{ path: 'presence-calendar', component: PresenceCalenderComponent },
+{ path: 'presence-calendar/:id', component: PresenceCalenderComponent },
 { path: 'presence', component: PresenceAdminComponent },
 { path: 'employeNotesInterne', component: NoteInterneEmployeComponent },
 { path: 'demandeConge', component: DemandeCongeComponent },

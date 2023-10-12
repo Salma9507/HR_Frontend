@@ -1,21 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-import { Component, ElementRef, OnInit, ViewChild, forwardRef } from '@angular/core';
+import { Component, OnInit, ViewChild, forwardRef } from '@angular/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from "@fullcalendar/interaction";
 import { CalendarOptions,EventInput } from '@fullcalendar/core';
@@ -50,7 +33,6 @@ presence: Presence = new Presence();
 
   constructor(private route: ActivatedRoute,private presenceService: PresenceService) { }
 
-
   ngOnInit() {
    
 
@@ -64,6 +46,7 @@ presence: Presence = new Presence();
     this.calendarOptions = {
       plugins: [dayGridPlugin, interactionPlugin],
       editable: true,
+      events: this.calendarEvents,
       
     };
   }
