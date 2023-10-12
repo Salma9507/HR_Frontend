@@ -1,0 +1,52 @@
+.btn-theme {
+    color: #fff;
+    background-color: #7890fc;
+    border-color: #7890fc;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+label {
+    font-weight: 300;
+    display: inline-block;
+}
+
+
+
+body {
+    color: #797979;
+    background: #eaeaea;
+    font-family: 'Ruda', sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 13px;
+}
+
+.card {
+    height: 300px;
+    width: 380px;
+}
+
+.btn{
+    font-size: 16px;
+    margin-top: 5%;
+}
+
+input {
+    font-size: 16px;
+}
+
+h3{
+    font-size: 12px;
+}

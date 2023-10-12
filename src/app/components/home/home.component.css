@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.container{
+    width: 100%;
+    padding-left: 0%;
+    margin-right: 4%;
+    padding-right:0%;
+    
+   
+    }
+
+
+    
+    .buttonText {
+    text-transform: none;
+    font-size: 20px;
+    font-family: "montserrat";
+    border-radius: 6px;
+    background-color: #7890fc;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    margin : 10px 150px;
+    color: #e7eff1;
+    
+    
+  
+    }
+  
+    .landingText {
+      margin-top: 5%;
+      }
+  
